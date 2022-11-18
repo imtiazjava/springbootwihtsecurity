@@ -1,0 +1,9 @@
+package com.cgi.sc.configure;
+
+import org.springframework.boot.autoconfigure.webservices.WebServicesAutoConfiguration;
+
+public class MySecurityConfig extends WebServicesAutoConfiguration {
+
+	
+ 
+}

@@ -1,0 +1,17 @@
+package com.cgi.sc.configure;
+
+import org.springframework.boot.autoconfigure.webservices.WebServicesAutoConfiguration;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+
+public class MySecurityConfig extends WebServicesAutoConfiguration {
+
+	protected void configure(AuthenticationManagerBuilder auth) {
+		System.out.println(auth);
+	}
+
+	protected void configure(HttpSecurity s)
+	{
+		System.out.println(s);
+	}
+}

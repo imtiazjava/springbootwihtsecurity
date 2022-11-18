@@ -1,0 +1,10 @@
+package com.cgi.sc.configure;
+
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+
+public class MySecurityConfig extends WebSecurityConfigurerAdapter {
+
+	
+ 
+}

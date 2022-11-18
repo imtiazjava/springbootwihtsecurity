@@ -1,0 +1,8 @@
+package com.cgi.sc.configure;
+
+ 
+public class MySecurityConfig extends WebSecurityConfigurerAdapter {
+
+	
+ 
+}
